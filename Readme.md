@@ -1,2 +1,1 @@
-Calculadora básica de IMC
-Alterando pra teste
+Projeto básico para testar meus conhecimentos em javascript
