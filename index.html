@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cálculo IMC</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/modal.css">
 </head>
 
 <body>
@@ -15,16 +16,23 @@
     <h1>Calcule seu IMC</h1>
     <form class="formulario">
       <div>
-        <label for="peso">Peso</label>
+        <label for="peso">Peso (em quilo)</label>
         <input type="text" id="peso">
       </div>
       <div>
-        <label for="altura">Altura</label>
-        <input type="text" id="altura">
+        <label for="altura">Altura (em metros)</label>
+        <input type="text" id="altura" oninput="formatarAltura(this)">
       </div>
       <button>Calcular IMC</button>
     </form>
-    <div class="resultado" id="resultado"></div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="resultado">
+            teste
+          </p>
+      </div>
+    </div>
   </section>
 
   <script src="./assets/js/main.js"></script>

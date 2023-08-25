@@ -1,1 +1,1 @@
-Projeto básico para testar meus conhecimentos em javascript
+Projeto básico para testar meus conhecimentos em javascript, e um pouco de HTML e CSS&#x1F60A;.
